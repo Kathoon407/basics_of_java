@@ -1,1 +1,3 @@
-my name is kathoon
+ 
+  git config --global user.email "kjbyasmin@gmail.com"
+  git config --global user.name "Kathoon"
