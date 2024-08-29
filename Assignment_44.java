@@ -1,25 +1,18 @@
 package Java_program;
-interface method_01{
-	public void add();
-	public void sub();
-}
-public class Assignment_44 implements method_01{
+import java.util.Arrays;
+import java.util.Scanner;
+public class Assignment_44 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-	}
-
-	@Override
-	public void add() {
-		// TODO Auto-generated method stub
+		Scanner s1 = new Scanner(System.in);
+		double nam[] = new double[3];
 		
-	}
-
-	@Override
-	public void sub() {
-		// TODO Auto-generated method stub
+		for(int i=0; i<nam.length; i++) {
+			nam[i] = s1.nextInt();
+		}
 		
+         System.out.println(Arrays.toString(nam));
 	}
 
 }

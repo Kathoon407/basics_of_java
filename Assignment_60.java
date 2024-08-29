@@ -1,15 +1,15 @@
 package Java_program;
 
-import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.ListIterator;
 
-public class Assignment_59 {
+public class Assignment_60 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		ArrayList l = new ArrayList();
+		LinkedList l =new LinkedList();
 		l.add("apple");
 		l.add("orange");
 		l.add("neem");
@@ -26,6 +26,7 @@ public class Assignment_59 {
 	    while(l1.hasPrevious()) {
 	    	System.out.println(l1.previous());
 	    }
+
 
 	}
 
